@@ -1,0 +1,5 @@
+## Gettting started
+
+```
+$ yarn install
+```

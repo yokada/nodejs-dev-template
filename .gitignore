@@ -1,0 +1,20 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Custom
+coverage
+.webpack
+*.log
+.DS_Store
+/dist
+/build
+/tmp
+.nyc_output
+.tags
+.ctags
+.cli
+.vscode
