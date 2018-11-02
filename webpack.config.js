@@ -6,10 +6,10 @@ const webpack = require('webpack'); //to access built-in plugins
 module.exports = {
   mode: 'development',
   entry: {
-    door: './src/index.js'
+    main: './src/index.js'
   },
   output: {
-    path: path.resolve(__dirname, '.app'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
   },
   target: 'node',

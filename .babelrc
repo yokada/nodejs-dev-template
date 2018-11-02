@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "source-map-support",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "import-glob"
+  ],
+  "presets": [
+    [ "@babel/preset-env", { "node": "8.10" } ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [ "@babel/preset-env", { "targets": { "node": "8.10" } } ]
+      ]
+    }
+  }
+}
